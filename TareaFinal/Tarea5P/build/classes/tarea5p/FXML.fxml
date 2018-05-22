@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tarea5p.FXMLController">
+   <children>
+      <ImageView fx:id="img1" fitHeight="120.0" fitWidth="178.0" layoutX="35.0" layoutY="274.0" onMouseClicked="#a" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img2" fitHeight="120.0" fitWidth="178.0" layoutX="226.0" layoutY="274.0" onMouseClicked="#b" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img3" fitHeight="120.0" fitWidth="178.0" layoutX="408.0" layoutY="274.0" onMouseClicked="#c" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
